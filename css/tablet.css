@@ -1,0 +1,86 @@
+@media only screen and (max-width: 768px) {
+
+header{
+    ul{
+        display: none;
+    }
+}
+main{
+#banner{
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    img{
+        width: 65%;
+        min-width: 140px; 
+    }
+}}
+#features{
+    #featuresWrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+    .feature{
+        width: 80vw;
+    }
+}}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featuresoverview{
+
+    .itemsWrapper{
+        flex-wrap: wrap;
+        gap: 4px;
+        .item{
+            width: 45%;
+            margin-bottom: 20px;
+        }
+    }
+}
+#LayoutWrapper{
+    padding-top: 3em;
+    margin-bottom: 5em;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contact"
+    "info"
+    "mapa";
+    .informacioContacte,iframe{
+        margin: 2em;
+    }
+    .contacte{
+        padding: 0 0 2rem 2rem;
+        margin-right: 4vw;
+    }
+}
+#titles{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    #pricing-h2{
+        font-size: 30px;
+    }
+    #pricing-h3{
+        font-size: 15px;
+    }}
+#boxes-pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .box-pricing{
+        margin: 2em;
+    }
+}
+}
+

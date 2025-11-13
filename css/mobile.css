@@ -1,0 +1,37 @@
+@media only screen and (max-width: 500px) {
+
+header button{
+    height: 5cap;
+    width: 80px;
+}
+
+footer{
+    #footerlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+#featuresoverview{
+    .itemsWrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+        .item{
+            width: 80%;
+            margin-bottom: 20px;
+        }}
+        #section3{
+        margin-bottom: 2em;
+        img{
+            height: 90%;
+            width: 90%;
+        }
+        .item{
+            width: 80%;
+        }
+    }
+}
+
+}
